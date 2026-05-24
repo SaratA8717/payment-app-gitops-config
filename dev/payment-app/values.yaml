@@ -2,8 +2,7 @@ replicaCount: 1
 
 image:
   repository: acrdev8912.azurecr.io/payment-app
-  tag: dc32f39c9ee7ce0db1381f3f9ad4a69117162ad6
-
+  tag: 599bc8f00c9b9ae99fc06ba019f2d3d4f21dfc7b
 service:
   type: LoadBalancer
   port: 80
