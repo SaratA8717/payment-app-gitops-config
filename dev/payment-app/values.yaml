@@ -8,8 +8,5 @@ service:
   type: LoadBalancer
   port: 80
 
-  serviceAccount:
+serviceAccount:
   create: true
-  automount: true
-  annotations: {}
-  name: ""
